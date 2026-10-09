@@ -10,15 +10,15 @@ For current and former projects, see [Projects]({{ '/projects/' | relative_url }
 My research addresses a gap at the centre of climate policy for buildings. For
 decades, efforts to reduce emissions from construction focused almost entirely
 on operational energy — heating, cooling, electricity. As buildings have become
-more efficient to run, the emissions embodied in their materials and
-construction have grown into the larger share of the problem, and in many cases
-the part that is irreversible: once a building is built, that carbon is already
-in the atmosphere.
+more efficient to run, the emissions embodied in their materials' production and 
+processing have grown into the larger share of the problem, and it is also
+the part that is irreversible: once a building is built, those upfront carbon 
+emission are already in the atmosphere.
 
 I work on **how to measure those emissions reliably, how to set credible
 targets for them, and what actually brings them down** — at the scale of
-individual buildings, national building stocks, and the global construction
-sector.
+individual buildings, national building stocks, and across global construction
+supply chains.
 
 Doing this well requires both rigour and reach. Life cycle assessment is a
 precise method applied, in practice, to extremely patchy data. Much of my work
@@ -32,7 +32,7 @@ Methodologically, I combine life cycle sustainability assessment with building
 information modelling, building data science and scenario modelling. Recurring
 tools include bottom-up building stock models, statistical analysis of
 environmental product declarations and building LCA case data, archetype-based
-stock characterisation, and open-source modelling in Python.
+stock characterisation, and open-source modelling - mostly using Python.
 
 In the following, a brief overview of my main research foci:
 
@@ -73,7 +73,7 @@ In the following, a brief overview of my main research foci:
   of life cycle emissions of EU buildings and construction for DG GROW, and
   advise national governments and international organisations.
 
-P.S. I am committed to **open science**. Nearly all of my publications are
+I am committed to **open science**. Nearly all of my publications are
 available open access, and the underlying data and code are published wherever
 possible — via [Zenodo](https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22R%C3%B6ck%2C%20Martin%22),
 [ResearchGate]({{ site.researchgate }}) and [GitHub](https://github.com/mroeck).
