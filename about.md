@@ -4,9 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<p class="lede">I work on the emissions that buildings cause before anyone
-moves in — and on making that visible early enough to change what gets
-built.</p>
+<p class="lede">I am a scientist who studies how climate change impacts the places we inhabit - and vice versa. My work focuses on the emissions that buildings cause before anyone moves in — and on making that visible early enough to inform where, what, and how we build.</p>
 
 For about fifteen years I have worked at the intersection of digital planning
 processes, sustainable construction and life cycle-based environmental
@@ -38,7 +36,7 @@ and the EU Taxonomy become levers.
 
 **Scaling wide** means reaching greater numbers: building the data, networks
 and capacity that let many actors act at once, in many places. INDICATE and
-the Global Building Data Initiative are both attempts to make the method
+the Global Building Data Initiative (GBDI) are both attempts to make proven methods
 available rather than keep it expert-only, with particular attention to Global
 South regions, where most of the floor area of the coming decades will be
 built.
@@ -47,29 +45,26 @@ built.
 radical alternatives — bio-based and earth-based construction, low-tech
 passive design, community-led housing, sufficiency strategies that reduce how
 much we need to build at all. These rarely scale directly, but they are where
-conventions get challenged and new norms start.
+conventions get challenged and new norms start growing.
 
 As a rule of thumb for what success looks like: greenhouse gas emissions from
 construction should at least halve every decade. Getting there needs
-unambiguous benchmarks, obligations anchored in national and European law, and
-buildings considered across their whole life cycle and supply chains rather
-than at the meter.
+unambiguous benchmarks, obligations anchored in national laws, and
+buildings climate and environmental impacts considered across their whole life cycle and supply chains.
 
 {% include carousel.html group="work" ratio="3 / 2" label="At work" %}
 
-## Off the ground
+## Off work, off the ground
 
-I fly paragliders — cross-country, in the Alps. You cannot make the air do
-anything. You can only read it, put yourself in the right place, and commit.
+I live in Vienna with my wife and daughter. When I am not working I run, cycle, or climb and frequently take time to enjoy the mountains. I fly paragliders on hike&fly and cross-country trips throughout the Alps. Flying is a great teacher. You cannot make the air do anything. You can only read it, put yourself in the right place, and commit.
 Flying rewards patience and punishes wishful thinking, and it teaches you the
-difference between them faster than most things.
+difference between them faster than most things. And sometimes it shows you that magic can happen.
 
 {% include carousel.html group="outdoors" ratio="4 / 5" label="Flying" %}
 
-## Ten lessons from the air
+## Some lessons from the air
 
-Much of what the mountains teach transfers directly to the work of changing
-how we build.
+Much of what the mountains and flying teaches transfers directly to my work of trying to inform better ways of buildings and the collective efforts for systemic transformation at large.
 
 <dl class="lessons">
 
@@ -97,10 +92,6 @@ against them.</dd>
 gliders around you to optimise your own line. Research works the same way:
 consortia, shared data and open methods let everyone see where the lift is.</dd>
 
-<dt>Trust the process</dt>
-<dd>Conditions reward method over improvisation, even when the method is
-slow and the day looks unpromising.</dd>
-
 <dt>Choose a challenge that fits your passion</dt>
 <dd>Not everyone has to do everything. Reviewing your own aspirations and
 possibilities honestly, and asking where your passion aligns with impact, is
@@ -126,9 +117,8 @@ most from it, rather than accepting the first version and moving on.</dd>
 highly attentive, reading the landscape, watching nature's indications,
 carefully feeling the signals of the wing. And often, somehow, suddenly, a
 small lift turns into a persistent one, a thermal breaks through an
-inversion, and within moments you are back at cloudbase.</dd>
+inversion, and within moments you may be back at cloudbase.</dd>
 
 </dl>
 
-When I am not flying I cycle, climb and go to the mountains. I live in Vienna
-with my wife and daughter.
+
