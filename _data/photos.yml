@@ -1,0 +1,35 @@
+# ---------------------------------------------------------------------------
+# PHOTO SETS for the carousels on the About page.
+#
+# To add a photo: drop the file in assets/img/ and add a block to a group.
+# To reorder: move the block. To remove: delete it.
+#
+#   file:    filename inside assets/img/
+#   alt:     description for screen readers and when the image fails to load
+#   caption: optional, shown under the frame
+# ---------------------------------------------------------------------------
+
+work:
+  - file: talk-trajectory.jpg
+    alt: "Martin Röck presenting a whole life carbon trajectory for the EU building stock"
+    caption: "Whole life carbon trajectories for the EU building stock, INDICATE LIFE."
+  - file: talk-method.jpg
+    alt: "Martin Röck presenting on whole life carbon method and the EU Delegated Act"
+    caption: "On method: what a workable EU whole life carbon standard has to specify."
+  - file: portrait-roof.jpg
+    alt: "Martin Röck on a rooftop in Vienna"
+    caption: "Vienna."
+
+outdoors:
+  - file: flying-cockpit.jpg
+    alt: "View from the harness, flying high above an Alpine valley"
+    caption: "Reading the valley for the next source of lift."
+  - file: flying-clouds.jpg
+    alt: "Paraglider wing against deep blue sky, mountains far below"
+    caption: "At cloudbase."
+  - file: wing-sky.jpg
+    alt: "Looking up at the paraglider wing from the harness"
+    caption: "Everything you achieve comes from forces already in the air."
+  - file: launch.jpg
+    alt: "Launching a paraglider from an Alpine ridge into cloud"
+    caption: "Launch."

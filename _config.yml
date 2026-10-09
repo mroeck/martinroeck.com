@@ -1,0 +1,55 @@
+title: Martin Röck
+tagline: Life cycle science for a regenerative built environment
+description: >-
+  Martin Röck works on life cycle sustainability assessment, whole life carbon
+  and the decarbonisation of the global built environment.
+
+# Change this to your GitHub Pages URL, or to https://martinroeck.com if you
+# point a custom domain at the repository.
+url: "https://martinroeck.com"
+baseurl: ""
+
+author: Martin Röck
+email: martin.roeck@riselabs.at
+
+# How your name appears in author lists — it is bolded automatically
+# wherever it occurs in _data/publications.yml.
+author_cite: "Röck M"
+
+# Shown under the intro on the Publications page. Update when you refresh it.
+metrics: "4,800+ citations · h-index 28 · i10-index 45 (October 2026)"
+
+# Profile links used in the footer
+orcid: "https://orcid.org/0000-0003-2940-1230"
+scholar: "https://scholar.google.com/citations?user=v0Pwb1cAAAAJ&hl=de"
+linkedin: "https://www.linkedin.com/in/martinroeck/"
+researchgate: "https://www.researchgate.net/profile/Martin-Roeck"
+
+nav:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Research
+    url: /research/
+  - title: Projects
+    url: /projects/
+  - title: Publications
+    url: /publications/
+  - title: CV
+    url: /cv/
+
+markdown: kramdown
+kramdown:
+  # GFM input makes bare https:// links clickable, so publication lines can
+  # just end with a DOI URL and nothing has to be wrapped in brackets.
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

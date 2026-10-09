@@ -1,0 +1,48 @@
+{%- comment -%}
+  A photo carousel. Expects:
+    include.group  a key in _data/photos.yml  (e.g. "outdoors")
+    include.ratio  optional aspect ratio for the frame, default "3 / 2"
+    include.label  optional accessible name for the region
+  Add or reorder photos in _data/photos.yml — nothing here needs editing.
+{%- endcomment -%}
+{%- assign shots = site.data.photos[include.group] -%}
+{%- if shots -%}
+<section class="carousel"
+         data-carousel
+         aria-roledescription="carousel"
+         aria-label="{{ include.label | default: include.group }}"
+         style="--ratio: {{ include.ratio | default: '3 / 2' }}"
+         data-captions='[{% for shot in shots %}"{{ shot.caption | escape }}"{% unless forloop.last %},{% endunless %}{% endfor %}]'>
+
+  <div class="carousel-frame">
+    <div class="carousel-track" data-track>
+      {%- for shot in shots -%}
+      <div class="carousel-slide" role="group" aria-roledescription="slide"
+           aria-label="{{ forloop.index }} of {{ shots.size }}"
+           {% unless forloop.first %}aria-hidden="true"{% endunless %}>
+        <img src="{{ '/assets/img/' | append: shot.file | relative_url }}"
+             alt="{{ shot.alt }}"
+             loading="lazy" decoding="async">
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+
+  <div class="carousel-bar">
+    <p class="carousel-caption" data-caption aria-live="polite">{{ shots[0].caption }}</p>
+
+    <ul class="carousel-dots" data-dots>
+      {%- for shot in shots -%}
+      <li><button type="button" data-goto="{{ forloop.index0 }}"
+                  aria-current="{% if forloop.first %}true{% else %}false{% endif %}"
+                  aria-label="Show photo {{ forloop.index }}"></button></li>
+      {%- endfor -%}
+    </ul>
+
+    <div class="carousel-nav">
+      <button type="button" data-prev aria-label="Previous photo">&#8592;</button>
+      <button type="button" data-next aria-label="Next photo">&#8594;</button>
+    </div>
+  </div>
+</section>
+{%- endif -%}

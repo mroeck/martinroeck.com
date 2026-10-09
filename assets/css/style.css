@@ -1,0 +1,456 @@
+/* Martin Röck — personal site
+   Plus Jakarta Sans for headings and navigation; Source Serif 4 for reading. */
+
+:root {
+  --ink: #16181a;
+  --ink-muted: #5d6368;
+  --rule: #dcdcd6;
+  --paper: #fcfcfa;
+  --accent: #1c5c48;
+  --measure: 39rem;
+  --wide: 52rem;
+
+  --sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system,
+          "Segoe UI", Roboto, sans-serif;
+  --serif: "Source Serif 4", ui-serif, Georgia, "Iowan Old Style", serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #e9e9e5;
+    --ink-muted: #9ca2a4;
+    --rule: #34383a;
+    --paper: #141617;
+    --accent: #7fc0a6;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.6;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.skip { position: absolute; left: -9999px; }
+.skip:focus {
+  left: 1rem; top: 1rem; background: var(--paper);
+  padding: 0.5rem 0.75rem; z-index: 10;
+}
+
+a {
+  color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* the name, wherever it is set as a mark rather than running text */
+.name {
+  font-family: var(--serif);
+  font-weight: 600;
+  letter-spacing: -0.012em;
+}
+
+/* ---------- header ---------- */
+
+.site-header {
+  border-bottom: 1px solid var(--rule);
+  padding: 2.75rem 0 0;
+  margin-bottom: 2.75rem;
+}
+
+.site-name {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -0.022em;
+  line-height: 1.08;
+}
+
+.site-name a { color: var(--ink); text-decoration: none; }
+
+.site-tagline {
+  margin: 0.5rem 0 0;
+  font-family: var(--sans);
+  color: var(--ink-muted);
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+}
+
+.site-nav { margin-top: 1.7rem; }
+
+.site-nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav li { margin: 0; }
+
+.site-nav a {
+  display: inline-block;
+  padding-bottom: 0.7rem;
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--ink-muted);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+.site-nav a:hover { color: var(--ink); }
+
+.site-nav a[aria-current="page"] {
+  color: var(--ink);
+  border-bottom-color: var(--accent);
+}
+
+/* ---------- content ---------- */
+
+main h1, main h2, main h3 {
+  font-family: var(--serif);
+  letter-spacing: -0.018em;
+}
+
+main h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 0 0 1.7rem;
+}
+
+main h2 {
+  font-size: 1.22rem;
+  font-weight: 600;
+  margin: 3rem 0 0.8rem;
+}
+
+main h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--ink-muted);
+  margin: 2.2rem 0 0.6rem;
+}
+
+p, li { margin: 0 0 1.05rem; }
+ul, ol { padding-left: 1.3rem; }
+li { margin-bottom: 0.55rem; }
+
+strong { font-weight: 600; }
+
+hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+
+blockquote {
+  margin: 1.8rem 0;
+  padding-left: 1.1rem;
+  border-left: 2px solid var(--accent);
+  color: var(--ink-muted);
+}
+
+blockquote p:last-child { margin-bottom: 0; }
+
+.lede {
+  font-family: var(--serif);
+  font-size: 1.3rem;
+  line-height: 1.45;
+  letter-spacing: -0.014em;
+  margin-bottom: 1.7rem;
+}
+
+.muted { color: var(--ink-muted); }
+
+.note {
+  font-family: var(--sans);
+  font-size: 0.86rem;
+  font-weight: 500;
+  color: var(--ink-muted);
+}
+
+/* dated entry lists: CV and projects */
+.entries { list-style: none; padding: 0; }
+
+.entries li {
+  display: grid;
+  grid-template-columns: 7.5rem 1fr;
+  gap: 0 1rem;
+  padding: 0.75rem 0;
+  border-top: 1px solid var(--rule);
+  margin: 0;
+}
+
+.entries li .yr {
+  font-family: var(--sans);
+  font-size: 0.84rem;
+  font-weight: 500;
+  color: var(--ink-muted);
+  padding-top: 0.3rem;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 34rem) {
+  .entries li { grid-template-columns: 1fr; gap: 0.15rem; }
+  .entries li .yr { padding-top: 0; }
+}
+
+/* publications */
+.pubs { list-style: none; padding: 0; }
+
+.pubs li {
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--rule);
+  font-size: 0.95rem;
+  line-height: 1.52;
+  margin: 0;
+}
+
+.pubs .self { font-weight: 600; }
+
+/* the author's own name in a citation, and his organisation in a project */
+.entrylist .self,
+.entrylist .org {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+.pubs .venue { font-style: italic; }
+.pubs .doi { overflow-wrap: anywhere; word-break: break-word; }
+
+/* plain-markdown entry lists (publications, projects) */
+.entrylist ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem;
+}
+
+.entrylist li {
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--rule);
+  font-size: 0.95rem;
+  line-height: 1.52;
+  margin: 0;
+}
+
+.entrylist li a { overflow-wrap: anywhere; }
+
+.entrylist h2 { margin-top: 2.8rem; }
+
+/* lessons: title and explanation pairs */
+.lessons { margin: 1.8rem 0 0; }
+
+.lessons dt {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: -0.012em;
+  margin-top: 1.9rem;
+}
+
+.lessons dt:first-child { margin-top: 0; }
+
+.lessons dd {
+  margin: 0.35rem 0 0;
+  padding-left: 0;
+  border-left: 2px solid var(--rule);
+  padding-left: 0.95rem;
+}
+
+/* ---------- images ---------- */
+
+figure { margin: 2.5rem 0; }
+
+figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+figcaption {
+  font-family: var(--sans);
+  font-size: 0.84rem;
+  font-weight: 500;
+  color: var(--ink-muted);
+  margin-top: 0.6rem;
+}
+
+/* images that break out past the text measure */
+.wide {
+  max-width: var(--wide);
+  margin-left: calc((var(--measure) - var(--wide)) / 2);
+  margin-right: calc((var(--measure) - var(--wide)) / 2);
+}
+
+@media (max-width: 54rem) {
+  .wide { max-width: 100%; margin-left: 0; margin-right: 0; }
+}
+
+/* two photos side by side */
+.pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.9rem;
+  margin: 2.5rem 0;
+}
+
+.pair img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.pair figcaption { grid-column: 1 / -1; margin-top: 0; }
+
+@media (max-width: 34rem) {
+  .pair { grid-template-columns: 1fr; }
+}
+
+/* ---------- footer ---------- */
+
+.site-footer {
+  border-top: 1px solid var(--rule);
+  margin-top: 4.5rem;
+  padding: 1.9rem 0 3rem;
+  font-family: var(--sans);
+  font-size: 0.86rem;
+  font-weight: 500;
+}
+
+.site-footer .links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.4rem;
+  margin: 0 0 0.6rem;
+  padding: 0;
+}
+
+.site-footer .links li { margin: 0; }
+.site-footer p { margin: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+
+/* ---------- carousel ---------- */
+
+.carousel {
+  margin: 2.5rem 0;
+}
+
+.carousel-frame {
+  position: relative;
+  overflow: hidden;
+  background: var(--rule);
+  border-radius: 2px;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 600ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.carousel-slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+.carousel-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: var(--ratio, 3 / 2);
+}
+
+.carousel-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.7rem;
+}
+
+.carousel-caption {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-family: var(--sans);
+  font-size: 0.84rem;
+  font-weight: 500;
+  color: var(--ink-muted);
+}
+
+.carousel-dots {
+  display: flex;
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex: 0 0 auto;
+}
+
+.carousel-dots li { margin: 0; }
+
+.carousel-dots button {
+  display: block;
+  width: 7px;
+  height: 7px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--rule);
+  cursor: pointer;
+}
+
+.carousel-dots button[aria-current="true"] { background: var(--accent); }
+
+.carousel-nav {
+  flex: 0 0 auto;
+  display: flex;
+  gap: 0.3rem;
+}
+
+.carousel-nav button {
+  width: 1.75rem;
+  height: 1.75rem;
+  padding: 0;
+  border: 1px solid var(--rule);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--ink-muted);
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.carousel-nav button:hover {
+  color: var(--ink);
+  border-color: var(--ink-muted);
+}
+
+/* With motion turned down the track does not slide and nothing auto-advances;
+   the controls still work. */
+@media (prefers-reduced-motion: reduce) {
+  .carousel-track { transition: none; }
+}
