@@ -6,12 +6,6 @@ permalink: /about/
 
 <p class="lede">I am a scientist who studies how climate change impacts the places we inhabit - and vice versa. My work focuses on the emissions that buildings cause before anyone moves in — and on making that visible early enough to inform where, what, and how we build.</p>
 
-For more than fifteen years I have worked at the intersection of digital design
-processes, sustainable construction and life cycle-based environmental
-assessment. Digitalisation in construction has mostly been used to raise
-productivity and build faster. I think it should also be used to improve
-social and ecological quality, because how we construct and operate buildings
-sits close right at the centre of the climate crisis and how we live through it.
 
 ## How I work
 
