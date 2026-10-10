@@ -6,7 +6,7 @@ permalink: /about/
 
 <p class="lede">I am a scientist who studies how climate change impacts the places we inhabit - and vice versa. My work focuses on the emissions that buildings cause before anyone moves in — and on making that visible early enough to inform where, what, and how we build.</p>
 
-For about fifteen years I have worked at the intersection of digital design
+For more than fifteen years I have worked at the intersection of digital design
 processes, sustainable construction and life cycle-based environmental
 assessment. Digitalisation in construction has mostly been used to raise
 productivity and build faster. I think it should also be used to improve
@@ -56,9 +56,9 @@ buildings climate and environmental impacts considered across their whole life c
 
 ## Off work, off the ground
 
-I live in Vienna with my wife and daughter. When I am not working I run, cycle, or climb and frequently take time to enjoy the mountains. I fly paragliders on hike&fly and cross-country trips throughout the Alps. Flying is a great teacher. You cannot make the air do anything. You can only read it, put yourself in the right place, and commit.
+I live in Vienna with my wife and daughter. When I am not working I spend time with them and in various community-led initiatives working towards a good life for all. I also run, cycle, or climb and frequently take time to enjoy the mountains. I fly paragliders on hike&fly and cross-country trips throughout the Alps. Flying is a great teacher. You cannot make the air do anything. You can only read it, put yourself in the right place, and commit.
 Flying rewards patience and punishes wishful thinking, and it teaches you the
-difference between them faster than most things. And sometimes it shows you that magic can happen.
+difference between them faster than most things. And sometimes it shows you true magic.
 
 {% include carousel.html group="outdoors" ratio="4 / 5" label="Flying" %}
 
