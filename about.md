@@ -6,12 +6,12 @@ permalink: /about/
 
 <p class="lede">I am a scientist who studies how climate change impacts the places we inhabit - and vice versa. My work focuses on the emissions that buildings cause before anyone moves in — and on making that visible early enough to inform where, what, and how we build.</p>
 
-For about fifteen years I have worked at the intersection of digital planning
+For about fifteen years I have worked at the intersection of digital design
 processes, sustainable construction and life cycle-based environmental
 assessment. Digitalisation in construction has mostly been used to raise
 productivity and build faster. I think it should also be used to improve
 social and ecological quality, because how we construct and operate buildings
-sits close to the centre of the climate crisis.
+sits close right at the centre of the climate crisis and how we live through it.
 
 ## How I work
 
@@ -25,20 +25,20 @@ legislative processes that turn them into reporting duties and target values.
 The underlying conviction is that deep decarbonisation is not only a technical
 problem. It requires changing a sociotechnical system — the interlinked mix of
 technologies, infrastructures, organisations, markets, regulations and
-practices that together produce buildings. That shapes how I pick what to work
+practices that together produce our built environment. That shapes how I pick what to work
 on. I think about three ways of scaling, and I try to keep all three alive at
 once:
 
-**Scaling up** means changing the rules of the game: establishing the life
+**Scaling up** means supporting change of the rules of the game: establishing the life
 cycle perspective in law and policy. This is where the European Commission
 work sits, and where the EPBD's new whole life carbon disclosure requirement
 and the EU Taxonomy become levers.
 
 **Scaling wide** means reaching greater numbers: building the data, networks
-and capacity that let many actors act at once, in many places. INDICATE and
+and capacity that let many actors act at once, in many places. Our INDICATE National Building LCA Data and Policy Accelerator and
 the Global Building Data Initiative (GBDI) are both attempts to make proven methods
 available rather than keep it expert-only, with particular attention to Global
-South regions, where most of the floor area of the coming decades will be
+South regions, where most of the new buildings and infrastructure of the coming decades will be
 built.
 
 **Scaling deep** means working with the small networks of people pioneering
