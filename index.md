@@ -27,7 +27,12 @@ Construction, and contribute to the forthcoming Assessment Report of the Intergo
 
 I hold a dual PhD in Architectural Engineering (KU Leuven) and Civil
 Engineering Science (TU Graz), completed as a DOC Fellow of the Austrian
-Academy of Sciences. Before that I trained and worked as an architect.
+Academy of Sciences. Before that I trained and worked as architect and building systems engineer.
+
+<figure>
+  <img src="{{ '/assets/img/portrait-garden.jpg' | relative_url }}"
+       alt="Martin Röck" loading="lazy">
+</figure>
 
 Outside the office I love my family and the outdoors, cycle, climb and fly.
 I serve on the boards of radical building sector decarbonization alliance [Habitat2030](https://habitat2030.at/) and collaborative housing pioneers [Wohnprojekt Wien](https://wohnprojekt.wien/). I am a founding member of the [Low Carbon Construction Association](https://www.lowcarbon.construction/) and co-founded [wohnlabor](https://www.wohnlabor.at/), an association for participatory housing research.
@@ -36,8 +41,3 @@ More on how I live, on and off work, under
 
 My [CV]({{ '/cv/' | relative_url }}) and
 [publications]({{ '/publications/' | relative_url }}).
-
-<figure>
-  <img src="{{ '/assets/img/portrait-garden.jpg' | relative_url }}"
-       alt="Martin Röck" loading="lazy">
-</figure>
