@@ -55,7 +55,6 @@ permalink: /cv/
 ## Teaching
 
 <ul class="entries">
-  <li><span class="yr">2026</span><span>Designing Regenerative Spatial Systems · EPFL Lausanne (CH), MSc, 3 ECTS <span class="muted">(in preparation)</span></span></li>
   <li><span class="yr">2026</span><span>Invited guest lectures · UCL London (UK), University of Cape Town (SA), Malmö University (SE)</span></li>
   <li><span class="yr">2025</span><span>Whole Building LCA for Sustainable Buildings and Regenerative Environments · EPFL Lausanne (CH), MSc/PhD, invited guest lecture</span></li>
   <li><span class="yr">2024</span><span>Reducing Whole Life Cycle GHG Emissions of Buildings and Building Stock · DTU Copenhagen (DK), MSc/PhD, invited guest lecture</span></li>
