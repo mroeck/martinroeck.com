@@ -4,7 +4,7 @@ title: Home
 permalink: /
 ---
 
-p class="lede">Hi! I'm Martin. I am a scientist who studies how climate change impacts the places we inhabit - and vice versa. My work focuses on the emissions that buildings cause before anyone moves in — and on making that visible early enough to inform where, what, and how we build.</p>
+p class="name">Hi! I'm Martin. I am a scientist who studies how climate change impacts the places we inhabit - and vice versa. My work focuses on the emissions that buildings cause before anyone moves in — and on making that visible early enough to inform where, what, and how we build.</p>
 
 My work focuses on
 measuring and reducing the emissions caused by how we build — not only the energy a building uses once it stands, but the
