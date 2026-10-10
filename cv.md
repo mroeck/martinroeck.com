@@ -55,7 +55,7 @@ permalink: /cv/
 ## Teaching
 
 <ul class="entries">
-  <li><span class="yr">2026</span><span>Invited guest lectures · UCL London (UK), University of Cape Town (SA), Malmö University (SE)</span></li>
+  <li><span class="yr">2026</span><span>Invited guest lectures · University of Cape Town (SA), Malmö University (SE), Indian Institute of Technology Bombay (IN)</span></li>
   <li><span class="yr">2025</span><span>Whole Building LCA for Sustainable Buildings and Regenerative Environments · EPFL Lausanne (CH), MSc/PhD, invited guest lecture</span></li>
   <li><span class="yr">2024</span><span>Reducing Whole Life Cycle GHG Emissions of Buildings and Building Stock · DTU Copenhagen (DK), MSc/PhD, invited guest lecture</span></li>
   <li><span class="yr">2017–2019</span><span>Building Information Modelling; Software-based BIM; Building Materials Basics; Environmental Impact Assessment · TU Graz (AT), BSc and MSc</span></li>
