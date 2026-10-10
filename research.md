@@ -15,9 +15,9 @@ processing have grown into the larger share of the problem, and it is also
 the part that is irreversible: once a building is built, those upfront carbon 
 emission are already in the atmosphere.
 
-I work on **how to measure those emissions reliably, how to set credible
+I work on **how to measure whole life cycle sustainability and emissions reliably, how to set credible
 targets for them, and what actually brings them down** — at the scale of
-individual buildings, national building stocks, and across global construction
+individual buildings, national building stocks, and across global building and construction
 supply chains.
 
 Doing this well requires both rigour and reach. Life cycle assessment is a
@@ -26,12 +26,12 @@ is therefore as much about building the data infrastructure the field needs as
 about any single finding. I collaborate across disciplines — with materials
 scientists, civil and architectural engineers, industrial ecologists,
 integrated assessment modellers, economists and policy analysts — and with the
-people who have to use the results.
+people who use the results.
 
 Methodologically, I combine life cycle sustainability assessment with building
 information modelling, building data science and scenario modelling. Recurring
 tools include bottom-up building stock models, statistical analysis of
-environmental product declarations and building LCA case data, archetype-based
+environmental product datasets and building LCA case data, archetype-based
 stock characterisation, and open-source modelling - mostly using Python.
 
 In the following, a brief overview of my main research foci:
@@ -62,14 +62,14 @@ In the following, a brief overview of my main research foci:
   question of how much carbon dioxide can genuinely be stored in buildings
   through timber, bio-based materials and mineral carbonation.
 
-- **Regenerative spatial systems.** The longer-term question behind the carbon
+- **Regenerative design and spatial systems.** The longer-term question behind the carbon
   accounting: what it would mean for the way we build and inhabit space to
   restore rather than deplete the systems it depends on. This is where my work
-  on sufficiency, participatory housing and social innovation sits.
+  on regenerative design principles sits: low tech, bio-based, and passive solar design, as well as sufficiency, participatory housing and social innovation.
 
 - **Science for policy.** Translating all of this into instruments decision
   makers can use. I have led the analytical work behind European policy
-  processes including the whole life carbon roadmap for DG ENV and the analysis
+  processes including work supporting the whole life carbon roadmap for DG ENV and the analysis
   of life cycle emissions of EU buildings and construction for DG GROW, and
   advise national governments and international organisations.
 
