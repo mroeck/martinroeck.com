@@ -4,11 +4,13 @@ title: Home
 permalink: /
 ---
 
-<span class="name">Hi! I am a researcher working on the
-climate and environmental impacts of the built environment, seeking ways to support the emergence of regenerative systems of spatial production and use. My work focuses on
+p class="lede">Hi! I'm Martin. I am a scientist who studies how climate change impacts the places we inhabit - and vice versa. My work focuses on the emissions that buildings cause before anyone moves in — and on making that visible early enough to inform where, what, and how we build.</p>
+
+My work focuses on
 measuring and reducing the emissions caused by how we build — not only the energy a building uses once it stands, but the
 carbon locked-in through producing and processing its materials long before - and after - anyone moved in
 (for more, see [Research]({{ '/research/' | relative_url }})).
+
 
 I am Founding Director and Lead Scientist of
 [RISE Institute for Regenerative Spatial Systems Science](http://www.riselabs.at)
